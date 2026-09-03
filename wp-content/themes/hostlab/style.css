@@ -15,3 +15,7 @@ Text Domain: hostlab
 .hostlab-hidden-field {
 	display: none;
 }
+
+html {
+	scroll-behavior: smooth;
+}
