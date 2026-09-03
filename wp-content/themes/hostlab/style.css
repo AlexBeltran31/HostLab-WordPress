@@ -3,7 +3,7 @@ Theme Name: HostLab
 Theme URI: https://hostlab.cl
 Author: HostLab
 Description: Tema de bloques (FSE) para hostlab.cl — gestion premium de arriendos temporales.
-Version: 1.0.2
+Version: 1.0.5
 Requires at least: 6.4
 Tested up to: 6.6
 Requires PHP: 8.0
@@ -50,4 +50,60 @@ html {
 	font-weight: 800;
 	font-style: normal;
 	font-display: swap;
+}
+
+.wpcf7 label {
+	display: block;
+	font-size: 0.9rem;
+	font-weight: 600;
+	margin-bottom: 16px;
+	color: #14121F;
+}
+.wpcf7-form-control:not(.wpcf7-checkbox):not(.wpcf7-radio):not(.wpcf7-acceptance):not(.hostlab-hidden-field) {
+	display: block;
+	width: 100%;
+	margin-top: 6px;
+	padding: 12px 14px;
+	border: 1px solid #d8d8de;
+	border-radius: 10px;
+	font-family: inherit;
+	font-size: 0.95rem;
+	box-sizing: border-box;
+}
+
+.wpcf7-textarea {
+	height: 80px;
+}
+.wpcf7-radio .wpcf7-list-item {
+	margin-right: 16px;
+}
+.wpcf7-submit {
+	display: block;
+	margin: 24px auto 0;
+	padding: 12px 32px;
+	background-color: #c7f36b;
+	color: #14121F;
+	border: none;
+	border-radius: 999px;
+	font-weight: 700;
+	cursor: pointer;
+}
+#comuna-visible {
+	display: block;
+	width: 100%;
+	margin-top: 6px;
+	padding: 12px 14px;
+	border: 1px solid #d8d8de;
+	border-radius: 10px;
+	font-family: inherit;
+	font-size: 0.95rem;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+.wpcf7 p {
+	margin-bottom: 20px;
+}
+
+.wpcf7-list-item-label {
+	font-weight: 400;
 }
