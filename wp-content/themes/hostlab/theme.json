@@ -4,9 +4,12 @@
   "settings": {
     "color": {
       "palette": [
-        { "slug": "navy", "color": "#1F3A5F", "name": "Navy" },
-        { "slug": "gray", "color": "#555555", "name": "Gray" },
-        { "slug": "light", "color": "#F2F5F8", "name": "Light" },
+        { "slug": "ink", "color": "#14121F", "name": "Ink" },
+        { "slug": "purple-dark", "color": "#0f0a5c", "name": "Purple Dark" },
+        { "slug": "purple", "color": "#574ea3", "name": "Purple" },
+        { "slug": "purple-light", "color": "#9e91eb", "name": "Purple Light" },
+        { "slug": "lime", "color": "#c7f36b", "name": "Lime" },
+        { "slug": "gray", "color": "#6B6B78", "name": "Gray" },
         { "slug": "white", "color": "#FFFFFF", "name": "White" }
       ]
     },
@@ -15,12 +18,28 @@
       "wideSize": "1200px"
     },
     "typography": {
+      "fontFamilies": [
+        {
+          "slug": "poppins",
+          "fontFamily": "\"Poppins\", sans-serif",
+          "name": "Poppins"
+        }
+      ],
       "fontSizes": [
-        { "slug": "small", "size": "0.9rem", "name": "Small" },
-        { "slug": "medium", "size": "1.1rem", "name": "Medium" },
-        { "slug": "large", "size": "2rem", "name": "Large" },
-        { "slug": "x-large", "size": "3rem", "name": "Extra Large" }
+        { "slug": "small", "size": "0.95rem", "name": "Small" },
+        { "slug": "medium", "size": "1.15rem", "name": "Medium" },
+        { "slug": "large", "size": "2.25rem", "name": "Large" },
+        { "slug": "x-large", "size": "3.25rem", "name": "Extra Large" }
       ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--poppins)"
+    },
+    "color": {
+      "text": "#17121F",
+      "background": "#FFFFFF"
     }
   },
   "templateParts": [
