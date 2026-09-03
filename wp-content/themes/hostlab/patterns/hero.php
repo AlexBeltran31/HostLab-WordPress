@@ -16,17 +16,17 @@
 		<!-- /wp:paragraph -->
 
 		<!-- wp:heading {"textAlign":"center","level":1,"textColor":"white","fontSize":"x-large"} -->
-		<h1 class="wp-block-heading has-text-align-center has-white-color has-text-color has-x-large-font-size">Gestión premium de arriendos temporales en Chile y España.</h1>
+		<h1 class="wp-block-heading has-text-align-center has-white-color has-text-color has-x-large-font-size">Tu propiedad merece más que una plataforma.</h1>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {"align":"center","textColor":"white","fontSize":"medium"} -->
-		<p class="has-text-align-center has-white-color has-text-color has-medium-font-size">HostLab maximiza la rentabilidad de tu propiedad con una operación impecable y tecnología inteligente que garantiza control y tranquilidad.</p>
+		<p class="has-text-align-center has-white-color has-text-color has-medium-font-size">Gestionamos tu propiedad para que genere ingresos sin complicaciones.</p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 		<div class="wp-block-buttons">
 			<!-- wp:button {"backgroundColor":"lime","textColor":"ink","style":{"border":{"radius":"999px"}}} -->
-			<div class="wp-block-button"><a class="wp-block-button__link has-ink-color has-lime-background-color has-text-color has-background wp-element-button" style="border-radius:999px" href="#contacto">Evaluar propiedad</a></div>
+			<div class="wp-block-button"><a class="wp-block-button__link has-ink-color has-lime-background-color has-text-color has-background wp-element-button" style="border-radius:999px" href="#contacto">Evalúa tu propiedad gratis</a></div>
 			<!-- /wp:button -->
 		</div>
 		<!-- /wp:buttons -->
