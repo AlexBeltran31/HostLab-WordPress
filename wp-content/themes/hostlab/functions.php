@@ -26,7 +26,6 @@ add_action( 'wp_enqueue_scripts', function () {
 		file_exists( $script_path ) ? filemtime( $script_path ) : '1.0',
 		true
 	);
-} );
 
 	$smooth_scroll_path = get_theme_file_path( '/js/smooth-scroll.js' );
 	wp_enqueue_script(
@@ -36,3 +35,4 @@ add_action( 'wp_enqueue_scripts', function () {
 		file_exists( $smooth_scroll_path ) ? filemtime( $smooth_scroll_path ) : '1.0',
 		true
 	);
+} );
