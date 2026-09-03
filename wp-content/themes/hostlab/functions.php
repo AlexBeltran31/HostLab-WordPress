@@ -27,3 +27,12 @@ add_action( 'wp_enqueue_scripts', function () {
 		true
 	);
 } );
+
+	$smooth_scroll_path = get_theme_file_path( '/js/smooth-scroll.js' );
+	wp_enqueue_script(
+		'hostlab-smooth-scroll',
+		get_template_directory_uri() . '/js/smooth-scroll.js',
+		array(),
+		file_exists( $smooth_scroll_path ) ? filemtime( $smooth_scroll_path ) : '1.0',
+		true
+	);
