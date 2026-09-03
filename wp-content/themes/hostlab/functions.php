@@ -12,13 +12,6 @@ add_action( 'init', function () {
 
 add_action( 'wp_enqueue_scripts', function () {
 	wp_enqueue_style(
-		'hostlab-google-fonts',
-		'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap',
-		array(),
-		null
-	);
-
-	wp_enqueue_style(
 		'hostlab-style',
 		get_stylesheet_uri(),
 		array(),

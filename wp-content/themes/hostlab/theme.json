@@ -20,9 +20,9 @@
     "typography": {
       "fontFamilies": [
         {
-          "slug": "poppins",
-          "fontFamily": "\"Poppins\", sans-serif",
-          "name": "Poppins"
+          "slug": "grift",
+          "fontFamily": "'Grift', sans-serif",
+          "name": "Grift"
         }
       ],
       "fontSizes": [
@@ -35,10 +35,10 @@
   },
   "styles": {
     "typography": {
-      "fontFamily": "var(--wp--preset--font-family--poppins)"
+      "fontFamily": "var(--wp--preset--font-family--grift)"
     },
     "color": {
-      "text": "#17121F",
+      "text": "#14121F",
       "background": "#FFFFFF"
     }
   },
