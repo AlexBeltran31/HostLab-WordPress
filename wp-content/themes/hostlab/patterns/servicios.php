@@ -5,9 +5,9 @@
  * Categories: hostlab
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"100px","bottom":"100px","left":"40px","right":"40px"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="padding-top:100px;padding-right:40px;padding-bottom:100px;padding-left:40px">
-
+<!-- wp:group {"align":"full","anchor":"servicios","style":{"spacing":{"padding":{"top":"100px","bottom":"100px","left":"40px","right":"40px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" id="servicios" style="padding-top:100px;padding-right:40px;padding-bottom:100px;padding-left:40px">
+	
 	<!-- wp:group {"layout":{"type":"flex","justifyContent":"center"}} -->
 	<div class="wp-block-group">
 		<!-- wp:paragraph {"backgroundColor":"purple-dark","textColor":"lime","fontSize":"small","style":{"spacing":{"padding":{"top":"6px","bottom":"6px","left":"18px","right":"18px"}},"border":{"radius":"8px"}}} -->

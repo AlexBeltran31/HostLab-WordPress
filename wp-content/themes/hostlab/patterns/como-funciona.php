@@ -5,8 +5,8 @@
  * Categories: hostlab
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"100px","bottom":"100px","left":"40px","right":"40px"}}},"layout":{"type":"constrained","contentSize":"780px"}} -->
-<div class="wp-block-group alignfull" style="padding-top:100px;padding-right:40px;padding-bottom:100px;padding-left:40px">
+<!-- wp:group {"align":"full","anchor":"como-funciona","style":{"spacing":{"padding":{"top":"100px","bottom":"100px","left":"40px","right":"40px"}}},"layout":{"type":"constrained","contentSize":"780px"}} -->
+<div class="wp-block-group alignfull" id="como-funciona" style="padding-top:100px;padding-right:40px;padding-bottom:100px;padding-left:40px">
 
 	<!-- wp:paragraph {"align":"center","textColor":"purple","fontSize":"small","style":{"typography":{"fontWeight":"700"}}} -->
 	<p class="has-text-align-center has-purple-color has-text-color has-small-font-size" style="font-weight:700">CÓMO FUNCIONA</p>

@@ -5,8 +5,8 @@
  * Categories: hostlab
  */
 ?>
-<!-- wp:cover {"url":"/wp-content/themes/hostlab/assets/images/interior-1.webp","dimRatio":30,"overlayColor":"purple","minHeight":90,"minHeightUnit":"vh","align":"full","contentPosition":"center center","style":{"spacing":{"padding":{"top":"80px","bottom":"80px","left":"40px","right":"40px"}}}} -->
-<div class="wp-block-cover alignfull has-custom-content-position is-position-center-center" style="padding-top:80px;padding-right:40px;padding-bottom:80px;padding-left:40px;min-height:90vh">
+<!-- wp:cover {"url":"/wp-content/themes/hostlab/assets/images/interior-1.webp","dimRatio":30,"overlayColor":"purple","minHeight":90,"minHeightUnit":"vh","align":"full","anchor":"nosotros","contentPosition":"center center","style":{"spacing":{"padding":{"top":"80px","bottom":"80px","left":"40px","right":"40px"}}}} -->
+<div class="wp-block-cover alignfull has-custom-content-position is-position-center-center" id="nosotros" style="padding-top:80px;padding-right:40px;padding-bottom:80px;padding-left:40px;min-height:90vh">
 	<span aria-hidden="true" class="wp-block-cover__background has-purple-background-color has-background-dim-30 has-background-dim"></span>
 	<img class="wp-block-cover__image-background" alt="" src="/wp-content/themes/hostlab/assets/images/interior-1.webp" data-object-fit="cover"/>
 	<div class="wp-block-cover__inner-container">
