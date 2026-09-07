@@ -3,7 +3,7 @@ Theme Name: HostLab
 Theme URI: https://hostlab.cl
 Author: HostLab
 Description: Tema de bloques (FSE) para hostlab.cl — gestion premium de arriendos temporales.
-Version: 1.0.6
+Version: 1.0.7
 Requires at least: 6.4
 Tested up to: 6.6
 Requires PHP: 8.0
@@ -142,4 +142,10 @@ html {
 	#hostlab-nav.is-open {
 		display: flex !important;
 	}
+}
+
+header.wp-block-template-part {
+	position: sticky;
+	top: 0;
+	z-index: 1000;
 }
