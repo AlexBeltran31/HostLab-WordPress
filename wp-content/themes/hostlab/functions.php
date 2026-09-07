@@ -35,4 +35,34 @@ add_action( 'wp_enqueue_scripts', function () {
 		file_exists( $smooth_scroll_path ) ? filemtime( $smooth_scroll_path ) : '1.0',
 		true
 	);
+
+	add_action( 'wpcf7_mail_sent', function ( $contact_form ) {
+	if ( ! defined( 'HOSTLAB_CALLMEBOT_PHONE' ) || ! defined( 'HOSTLAB_CALLMEBOT_APIKEY' ) ) {
+		return;
+	}
+
+	$submission = WPCF7_Submission::get_instance();
+	if ( ! $submission ) {
+		return;
+	}
+
+	$data = $submission->get_posted_data();
+
+	$message  = "Nuevo lead en hostlab.cl\n";
+	$message .= "Nombre: " . ( $data['your-name'] ?? '-' ) . "\n";
+	$message .= "Email: " . ( $data['your-email'] ?? '-' ) . "\n";
+	$message .= "Teléfono: " . ( $data['your-phone'] ?? '-' ) . "\n";
+	$message .= "Región: " . ( $data['region'] ?? '-' ) . "\n";
+	$message .= "Comuna: " . ( $data['comuna'] ?? '-' );
+
+	wp_remote_get( add_query_arg(
+		array(
+			'source' => 'php',
+			'phone'  => HOSTLAB_CALLMEBOT_PHONE,
+			'text'   => rawurlencode( $message ),
+			'apikey' => HOSTLAB_CALLMEBOT_APIKEY,
+		),
+		'https://api.callmebot.com/whatsapp.php'
+	) );
+} );
 } );
