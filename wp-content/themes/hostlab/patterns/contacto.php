@@ -22,7 +22,7 @@
 			<p class="has-text-align-center has-gray-color has-text-color">Completa el formulario y te contactamos en breve.</p>
 			<!-- /wp:paragraph -->
 
-			<?php echo do_shortcode( '[contact-form-7 id="d3be08c" title="Evalúa tu propiedad"]' ); ?>
+			<?php echo do_shortcode( '[contact-form-7 id="1b00cc9" title="Evalúa tu propiedad"]' ); ?>
 
 		</div>
 		<!-- /wp:group -->

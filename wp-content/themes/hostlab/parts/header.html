@@ -1,5 +1,5 @@
 <!-- wp:group {"tagName":"header","align":"full","backgroundColor":"white","layout":{"type":"flex","justifyContent":"space-between","flexWrap":"wrap"}} -->
-<header class="wp-block-group alignfull has-white-background-color has-background" style="padding-top:1.25rem;padding-bottom:1.25rem;padding-left:2rem;padding-right:2rem">
+<header class="wp-block-group alignfull has-white-background-color has-background" style="padding-top:1.25rem;padding-bottom:1.25rem;padding-left:2rem;padding-right:2rem;position:relative">
 
 	<!-- wp:html -->
 	<a href="/" style="display:flex;align-items:center">
@@ -7,8 +7,16 @@
 	</a>
 	<!-- /wp:html -->
 
+	<!-- wp:html -->
+	<button id="hostlab-menu-toggle" aria-label="Abrir menú" aria-expanded="false" class="hostlab-menu-toggle">
+		<span></span>
+		<span></span>
+		<span></span>
+	</button>
+	<!-- /wp:html -->
+
 	<!-- wp:group {"layout":{"type":"flex","justifyContent":"right","flexWrap":"wrap"}} -->
-	<div class="wp-block-group" style="gap:3rem;align-items:center">
+	<div class="wp-block-group" id="hostlab-nav" style="gap:3rem;align-items:center">
 
 		<!-- wp:html -->
 		<a href="#servicios" style="color:#14121F;text-decoration:none;font-weight:500">Servicios</a>

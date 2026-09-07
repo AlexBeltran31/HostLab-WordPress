@@ -36,6 +36,15 @@ add_action( 'wp_enqueue_scripts', function () {
 		true
 	);
 
+		$mobile_menu_path = get_theme_file_path( '/js/mobile-menu.js' );
+	wp_enqueue_script(
+		'hostlab-mobile-menu',
+		get_template_directory_uri() . '/js/mobile-menu.js',
+		array(),
+		file_exists( $mobile_menu_path ) ? filemtime( $mobile_menu_path ) : '1.0',
+		true
+	);
+
 	add_action( 'wpcf7_mail_sent', function ( $contact_form ) {
 	if ( ! defined( 'HOSTLAB_CALLMEBOT_PHONE' ) || ! defined( 'HOSTLAB_CALLMEBOT_APIKEY' ) ) {
 		return;
