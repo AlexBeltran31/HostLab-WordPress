@@ -7,92 +7,92 @@
 ?>
 <!-- wp:group {"align":"full","anchor":"servicios","style":{"spacing":{"padding":{"top":"100px","bottom":"100px","left":"40px","right":"40px"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" id="servicios" style="padding-top:100px;padding-right:40px;padding-bottom:100px;padding-left:40px">
-	
-	<!-- wp:group {"layout":{"type":"flex","justifyContent":"center"}} -->
-	<div class="wp-block-group">
-		<!-- wp:paragraph {"backgroundColor":"purple-dark","textColor":"lime","fontSize":"small","style":{"spacing":{"padding":{"top":"6px","bottom":"6px","left":"18px","right":"18px"}},"border":{"radius":"8px"}}} -->
+
+<!-- wp:group {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-group">
+<!-- wp:paragraph {"backgroundColor":"purple-dark","textColor":"lime","fontSize":"small","style":{"spacing":{"padding":{"top":"6px","bottom":"6px","left":"18px","right":"18px"}},"border":{"radius":"8px"}}} -->
     <p class="has-lime-color has-purple-dark-background-color has-text-color has-background has-small-font-size" style="border-radius:8px;padding-top:6px;padding-right:18px;padding-bottom:6px;padding-left:18px">NUESTRO ENFOQUE</p>
     <!-- /wp:paragraph -->
-	</div>
-	<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
 
-	<!-- wp:heading {"textAlign":"center","level":2,"fontSize":"large"} -->
-	<h2 class="wp-block-heading has-text-align-center has-large-font-size">Nos diferenciamos en cada detalle.</h2>
-	<!-- /wp:heading -->
+<!-- wp:heading {"textAlign":"center","level":2,"fontSize":"large"} -->
+<h2 class="wp-block-heading has-text-align-center has-large-font-size">Nos diferenciamos en cada detalle.</h2>
+<!-- /wp:heading -->
 
-	<!-- wp:paragraph {"align":"center","textColor":"gray","fontSize":"medium"} -->
-	<p class="has-text-align-center has-gray-color has-text-color has-medium-font-size">Desde la preparación de tu propiedad hasta la atención al huésped, cuidamos cada aspecto de la experiencia.</p>
-	<!-- /wp:paragraph -->
+<!-- wp:paragraph {"align":"center","textColor":"gray","fontSize":"medium"} -->
+<p class="has-text-align-center has-gray-color has-text-color has-medium-font-size">Desde la preparación de tu propiedad hasta la atención al huésped, cuidamos cada aspecto de la experiencia.</p>
+<!-- /wp:paragraph -->
 
-	<!-- wp:group {"style":{"spacing":{"blockGap":"24px","margin":{"top":"48px"}}},"layout":{"type":"grid","columnCount":2}} -->
-	<div class="wp-block-group" style="margin-top:46px">
+<!-- wp:group {"style":{"spacing":{"blockGap":"24px","margin":{"top":"48px"}}},"layout":{"type":"grid","columnCount":2}} -->
+<div class="wp-block-group" style="margin-top:46px">
 
-		<!-- wp:group {"backgroundColor":"purple-dark","style":{"spacing":{"padding":{"top":"32px","bottom":"32px","left":"32px","right":"32px"},"blockGap":"16px"},"border":{"radius":"24px"}},"layout":{"type":"constrained"}} -->
-		<div class="wp-block-group has-purple-dark-background-color has-background" style="border-radius:24px;padding-top:32px;padding-right:32px;padding-bottom:32px;padding-left:32px">
-			<!-- wp:group {"style":{"spacing":{"blockGap":"14px"}},"layout":{"type":"flex","verticalAlignment":"center"}} -->
-			<div class="wp-block-group">
-				<!-- wp:html --><svg width="32" height="40" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" stroke-dasharray="2 2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg><!-- /wp:html -->
-				<!-- wp:heading {"level":3,"textColor":"white","fontSize":"medium"} -->
-				<h3 class="wp-block-heading has-white-color has-text-color has-medium-font-size">Producción visual premium</h3>
-				<!-- /wp:heading -->
-			</div>
-			<!-- /wp:group -->
-			<!-- wp:paragraph {"textColor":"white","fontSize":"small"} -->
-			<p class="has-white-color has-text-color has-small-font-size">Fotografía profesional y optimización visual del anuncio para posicionar tu propiedad en las plataformas.</p>
-			<!-- /wp:paragraph -->
-		</div>
-		<!-- /wp:group -->
+<!-- wp:group {"backgroundColor":"purple-dark","style":{"spacing":{"padding":{"top":"32px","bottom":"32px","left":"32px","right":"32px"},"blockGap":"16px"},"border":{"radius":"24px"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-purple-dark-background-color has-background" style="border-radius:24px;padding-top:32px;padding-right:32px;padding-bottom:32px;padding-left:32px">
+<!-- wp:group {"style":{"spacing":{"blockGap":"14px"}},"layout":{"type":"flex","verticalAlignment":"center"}} -->
+<div class="wp-block-group">
+<!-- wp:html --><svg width="60" height="60" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:#fff;}</style></defs><path class="cls-1" d="M589.32,581.17H210.68c-6.8,0-12.31-5.51-12.31-12.31V228.08c0-6.8,5.51-12.31,12.31-12.31h378.64c6.8,0,12.31,5.51,12.31,12.31v340.78c0,6.8-5.51,12.31-12.31,12.31ZM222.98,556.56h354.03V240.39H222.98v316.17Z"/><path class="cls-1" d="M589.32,581.17c-3.15,0-6.3-1.2-8.7-3.6l-142.76-142.76-67.03,67.03c-4.81,4.81-12.6,4.81-17.4,0l-29.16-29.16-104.89,104.89c-4.81,4.81-12.6,4.81-17.4,0-4.81-4.81-4.81-12.6,0-17.4l113.59-113.59c4.81-4.81,12.6-4.81,17.4,0l29.16,29.16,67.03-67.03c4.81-4.81,12.6-4.81,17.4,0l151.46,151.46c4.81,4.81,4.81,12.6,0,17.4-2.4,2.4-5.55,3.6-8.7,3.6Z"/><path class="cls-1" d="M324.27,391.85c-27.66,0-50.17-22.51-50.17-50.17s22.51-50.17,50.17-50.17,50.17,22.51,50.17,50.17-22.51,50.17-50.17,50.17ZM324.27,316.12c-14.09,0-25.56,11.47-25.56,25.56s11.47,25.56,25.56,25.56,25.56-11.47,25.56-25.56-11.47-25.56-25.56-25.56Z"/><path class="cls-1" d="M704.18,240.39h-39.13c-6.8,0-12.31-5.51-12.31-12.31s5.51-12.31,12.31-12.31h39.13c6.8,0,12.31,5.51,12.31,12.31s-5.51,12.31-12.31,12.31Z"/><path class="cls-1" d="M134.95,240.39h-39.13c-6.8,0-12.31-5.51-12.31-12.31s5.51-12.31,12.31-12.31h39.13c6.8,0,12.31,5.51,12.31,12.31s-5.51,12.31-12.31,12.31Z"/><path class="cls-1" d="M134.95,581.17h-39.13c-6.8,0-12.31-5.51-12.31-12.31s5.51-12.31,12.31-12.31h39.13c6.8,0,12.31,5.51,12.31,12.31s-5.51,12.31-12.31,12.31Z"/><path class="cls-1" d="M704.18,581.17h-39.13c-6.8,0-12.31-5.51-12.31-12.31s5.51-12.31,12.31-12.31h39.13c6.8,0,12.31,5.51,12.31,12.31s-5.51,12.31-12.31,12.31Z"/><path class="cls-1" d="M210.68,694.76c-6.8,0-12.31-5.51-12.31-12.31v-37.86c0-6.8,5.51-12.31,12.31-12.31s12.31,5.51,12.31,12.31v37.86c0,6.8-5.51,12.31-12.31,12.31Z"/><path class="cls-1" d="M589.32,694.76c-6.8,0-12.31-5.51-12.31-12.31v-37.86c0-6.8,5.51-12.31,12.31-12.31s12.31,5.51,12.31,12.31v37.86c0,6.8-5.51,12.31-12.31,12.31Z"/><path class="cls-1" d="M210.68,164.66c-6.8,0-12.31-5.51-12.31-12.31v-37.86c0-6.8,5.51-12.31,12.31-12.31s12.31,5.51,12.31,12.31v37.86c0,6.8-5.51,12.31-12.31,12.31Z"/><path class="cls-1" d="M589.32,164.66c-6.8,0-12.31-5.51-12.31-12.31v-37.86c0-6.8,5.51-12.31,12.31-12.31s12.31,5.51,12.31,12.31v37.86c0,6.8-5.51,12.31-12.31,12.31Z"/></svg><!-- /wp:html -->
+<!-- wp:heading {"level":3,"textColor":"white","fontSize":"medium"} -->
+<h3 class="wp-block-heading has-white-color has-text-color has-medium-font-size">Producción visual premium</h3>
+<!-- /wp:heading -->
+</div>
+<!-- /wp:group -->
+<!-- wp:paragraph {"textColor":"white","fontSize":"small"} -->
+<p class="has-white-color has-text-color has-small-font-size">Fotografía profesional y optimización visual del anuncio para posicionar tu propiedad en las plataformas.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
 
-		<!-- wp:group {"backgroundColor":"purple","style":{"spacing":{"padding":{"top":"32px","bottom":"32px","left":"32px","right":"32px"},"blockGap":"16px"},"border":{"radius":"24px"}},"layout":{"type":"constrained"}} -->
-		<div class="wp-block-group has-purple-background-color has-background" style="border-radius:24px;padding-top:32px;padding-right:32px;padding-bottom:32px;padding-left:32px">
-			<!-- wp:group {"style":{"spacing":{"blockGap":"14px"}},"layout":{"type":"flex","verticalAlignment":"center"}} -->
-			<div class="wp-block-group">
-				<!-- wp:html --><svg width="32" height="40" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><path d="M21 16a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-2a2 2 0 0 1 2-2h3zM3 16a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2H3z"/><circle cx="12" cy="10" r="1.5"/></svg><!-- /wp:html -->
-				<!-- wp:heading {"level":3,"textColor":"white","fontSize":"medium"} -->
-				<h3 class="wp-block-heading has-white-color has-text-color has-medium-font-size">Gestión integral de huéspedes</h3>
-				<!-- /wp:heading -->
-			</div>
-			<!-- /wp:group -->
-			<!-- wp:paragraph {"textColor":"white","fontSize":"small"} -->
-			<p class="has-white-color has-text-color has-small-font-size">Atención continua, coordinación de estancias y resolución de incidencias para garantizar una experiencia impecable.</p>
-			<!-- /wp:paragraph -->
-		</div>
-		<!-- /wp:group -->
+<!-- wp:group {"backgroundColor":"purple","style":{"spacing":{"padding":{"top":"32px","bottom":"32px","left":"32px","right":"32px"},"blockGap":"16px"},"border":{"radius":"24px"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-purple-background-color has-background" style="border-radius:24px;padding-top:32px;padding-right:32px;padding-bottom:32px;padding-left:32px">
+<!-- wp:group {"style":{"spacing":{"blockGap":"14px"}},"layout":{"type":"flex","verticalAlignment":"center"}} -->
+<div class="wp-block-group">
+<!-- wp:html --><svg width="60" height="60" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:#fff;}</style></defs><path class="cls-1" d="M563.65,340.11c-6.36,0-11.9-4.69-12.8-11.17-7.05-51.08-36.3-97.18-79.17-125.71l-16.73,31.86c28.41,19.98,49.11,49.82,57.57,83.5,1.74,6.93-2.47,13.96-9.4,15.7-6.93,1.74-13.96-2.47-15.69-9.4-7.77-30.97-28.16-57.99-55.94-74.14-5.99-3.48-8.17-11.06-4.95-17.2l28.67-54.58c1.63-3.1,4.43-5.4,7.79-6.39,3.35-.99,6.96-.58,10.01,1.13,27.32,15.38,51.18,37.16,69,62.99,18.19,26.36,30.11,57.04,34.48,88.7.98,7.08-3.97,13.61-11.05,14.58-.6.08-1.2.12-1.78.12Z"/><path class="cls-1" d="M178.1,385.41c-7.14,0-12.94-5.79-12.94-12.94v-18.58c0-36.75,9.77-72.84,28.27-104.37,17.94-30.59,43.6-56.22,74.22-74.12,6.15-3.6,14.04-1.54,17.67,4.59l31.34,53.05c1.75,2.97,2.25,6.51,1.38,9.84-.87,3.33-3.03,6.18-6.01,7.92-36.66,21.34-59.43,60.85-59.43,103.09v16.6c0,7.14-5.79,12.94-12.94,12.94s-12.94-5.79-12.94-12.94v-16.6c0-47.07,23.21-91.33,61.33-118.39l-18.24-30.86c-22.01,15.07-40.55,34.91-54.08,57.98-16.17,27.57-24.71,59.13-24.71,91.28v18.58c0,7.14-5.79,12.94-12.94,12.94Z"/><path class="cls-1" d="M305.53,252.56c-4.43,0-8.74-2.27-11.15-6.36l-31.34-53.05c-1.75-2.96-2.25-6.5-1.38-9.83.86-3.33,3.02-6.18,5.99-7.92,31.49-18.41,67.5-28.15,104.15-28.15s70.45,9.15,101.2,26.46c6.1,3.43,8.36,11.09,5.11,17.29l-28.67,54.58c-1.64,3.12-4.48,5.44-7.87,6.42-3.39.97-7.03.52-10.08-1.25-18.08-10.51-38.72-16.06-59.69-16.06s-41.67,5.57-59.77,16.11c-2.05,1.19-4.29,1.76-6.5,1.76ZM292.16,191.58l18.25,30.88c19.14-8.96,40.12-13.65,61.39-13.65s41.76,4.58,60.72,13.34l16.63-31.67c-24.05-11.39-50.55-17.36-77.36-17.36s-54.97,6.35-79.63,18.46Z"/><path class="cls-1" d="M239.66,541.46h-48.28c-24.42,0-44.29-19.87-44.29-44.29v-95.34c0-24.42,19.87-44.29,44.29-44.29h48.28c7.14,0,12.94,5.79,12.94,12.94v158.04c0,7.14-5.79,12.94-12.94,12.94ZM191.39,383.42c-10.15,0-18.42,8.26-18.42,18.42v95.34c0,10.15,8.26,18.41,18.42,18.41h35.34v-132.17s-35.34,0-35.34,0Z"/><path class="cls-1" d="M497.73,623.16h-76.06c-7.14,0-12.94-5.79-12.94-12.94s5.79-12.94,12.94-12.94h76.06c15.69,0,28.46-12.77,28.46-28.46v-15.01c0-7.14,5.79-12.94,12.94-12.94s12.94,5.79,12.94,12.94v15.01c0,29.96-24.37,54.33-54.33,54.33Z"/><path class="cls-1" d="M389.46,652.74h-35.32c-23.18,0-42.04-18.86-42.04-42.04s18.86-42.04,42.04-42.04h35.32c23.18,0,42.04,18.86,42.04,42.04s-18.86,42.04-42.04,42.04ZM354.13,594.53c-8.92,0-16.17,7.25-16.17,16.17s7.25,16.17,16.17,16.17h35.32c8.92,0,16.17-7.25,16.17-16.17s-7.25-16.17-16.17-16.17h-35.32Z"/><path class="cls-1" d="M523.62,566.75c-71.12,0-128.97-57.86-128.97-128.97s57.86-128.97,128.97-128.97,128.97,57.86,128.97,128.97-57.86,128.97-128.97,128.97ZM523.62,334.68c-56.85,0-103.1,46.25-103.1,103.1s46.25,103.1,103.1,103.1,103.1-46.25,103.1-103.1-46.25-103.1-103.1-103.1Z"/><path class="cls-1" d="M523.61,396.49c-.42,0-.85-.02-1.27-.07-.42-.04-.84-.1-1.25-.19-.83-.16-1.64-.41-2.42-.74-.79-.32-1.53-.73-2.24-1.18-.35-.24-.69-.49-1.01-.76-.33-.27-.65-.56-.95-.86-.3-.3-.59-.62-.86-.95-.27-.33-.52-.67-.76-1.03-.47-.7-.87-1.45-1.18-2.23-.33-.79-.58-1.59-.74-2.42-.09-.42-.15-.84-.19-1.26-.05-.42-.07-.85-.07-1.26,0-3.41,1.38-6.75,3.79-9.15.3-.3.62-.58.95-.85.33-.27.67-.53,1.01-.76.71-.47,1.45-.87,2.24-1.19.78-.32,1.59-.57,2.42-.74.42-.08.84-.15,1.25-.19.85-.08,1.7-.08,2.55,0,.42.04.84.11,1.25.19.83.17,1.64.42,2.42.74.79.33,1.53.73,2.24,1.19.35.23.7.49,1.01.76.33.27.65.55.95.85,2.41,2.41,3.79,5.74,3.79,9.15s-1.38,6.74-3.79,9.14c-.3.3-.62.59-.95.86-.32.27-.67.52-1.01.76-.71.46-1.45.87-2.24,1.18-.78.33-1.59.58-2.42.74-.42.09-.84.15-1.25.19-.42.05-.86.07-1.27.07Z"/><path class="cls-1" d="M523.62,504.94c-7.14,0-12.94-5.79-12.94-12.94v-59.16c0-7.14,5.79-12.94,12.94-12.94s12.94,5.79,12.94,12.94v59.16c0,7.14-5.79,12.94-12.94,12.94Z"/></svg><!-- /wp:html -->
+<!-- wp:heading {"level":3,"textColor":"white","fontSize":"medium"} -->
+<h3 class="wp-block-heading has-white-color has-text-color has-medium-font-size">Gestión integral de huéspedes</h3>
+<!-- /wp:heading -->
+</div>
+<!-- /wp:group -->
+<!-- wp:paragraph {"textColor":"white","fontSize":"small"} -->
+<p class="has-white-color has-text-color has-small-font-size">Atención continua, coordinación de estancias y resolución de incidencias para garantizar una experiencia impecable.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
 
-		<!-- wp:group {"backgroundColor":"purple","style":{"spacing":{"padding":{"top":"32px","bottom":"32px","left":"32px","right":"32px"},"blockGap":"16px"},"border":{"radius":"24px"}},"layout":{"type":"constrained"}} -->
-		<div class="wp-block-group has-purple-background-color has-background" style="border-radius:24px;padding-top:32px;padding-right:32px;padding-bottom:32px;padding-left:32px">
-			<!-- wp:group {"style":{"spacing":{"blockGap":"14px"}},"layout":{"type":"flex","verticalAlignment":"center"}} -->
-			<div class="wp-block-group">
-				<!-- wp:html --><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="3" height="18" rx="1"/><path d="M10 19V9m6 10V5"/></svg><!-- /wp:html -->
-				<!-- wp:heading {"level":3,"textColor":"white","fontSize":"medium"} -->
-				<h3 class="wp-block-heading has-white-color has-text-color has-medium-font-size">Revenue management</h3>
-				<!-- /wp:heading -->
-			</div>
-			<!-- /wp:group -->
-			<!-- wp:paragraph {"textColor":"white","fontSize":"small"} -->
-			<p class="has-white-color has-text-color has-small-font-size">Optimización dinámica de tarifas basada en demanda, estacionalidad y análisis de mercado para maximizar ingresos.</p>
-			<!-- /wp:paragraph -->
-		</div>
-		<!-- /wp:group -->
+<!-- wp:group {"backgroundColor":"purple","style":{"spacing":{"padding":{"top":"32px","bottom":"32px","left":"32px","right":"32px"},"blockGap":"16px"},"border":{"radius":"24px"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-purple-background-color has-background" style="border-radius:24px;padding-top:32px;padding-right:32px;padding-bottom:32px;padding-left:32px">
+<!-- wp:group {"style":{"spacing":{"blockGap":"14px"}},"layout":{"type":"flex","verticalAlignment":"center"}} -->
+<div class="wp-block-group">
+<!-- wp:html --><svg width="60" height="60" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:#fff;}</style></defs><path class="cls-1" d="M614.65,688.58H185.5c-6.8,0-12.31-5.51-12.31-12.31V192.71c0-6.8,5.51-12.31,12.31-12.31h64.18c6.8,0,12.31,5.51,12.31,12.31v291.99h40.36V192.71c0-6.8,5.51-12.31,12.31-12.31h299.99c6.8,0,12.31,5.51,12.31,12.31v483.57c0,6.8-5.51,12.31-12.31,12.31ZM197.81,663.97h404.53V205.02h-275.37v291.99c0,6.8-5.51,12.31-12.31,12.31h-64.97c-6.8,0-12.31-5.51-12.31-12.31V205.02h-39.57v458.95Z"/><path class="cls-1" d="M314.66,509.31h-64.97c-6.8,0-12.31-5.51-12.31-12.31V123.72c0-6.8,5.51-12.31,12.31-12.31h64.97c6.8,0,12.31,5.51,12.31,12.31v373.28c0,6.8-5.51,12.31-12.31,12.31ZM261.99,484.7h40.36V136.03h-40.36v348.67Z"/><path class="cls-1" d="M432.71,509.31h-64.97c-6.8,0-12.31-5.51-12.31-12.31v-195.22c0-6.8,5.51-12.31,12.31-12.31h64.97c6.8,0,12.31,5.51,12.31,12.31v195.22c0,6.8-5.51,12.31-12.31,12.31ZM380.04,484.7h40.36v-170.61h-40.36v170.61Z"/><path class="cls-1" d="M552.72,509.31h-64.97c-6.8,0-12.31-5.51-12.31-12.31v-235.88c0-6.8,5.51-12.31,12.31-12.31h64.97c6.8,0,12.31,5.51,12.31,12.31v235.88c0,6.8-5.51,12.31-12.31,12.31ZM500.05,484.7h40.36v-211.27h-40.36v211.27Z"/><path class="cls-1" d="M256.96,573.45c-.4,0-.8-.02-1.21-.06-.4-.04-.8-.1-1.19-.18-.79-.16-1.56-.4-2.3-.7-.75-.31-1.46-.69-2.13-1.14-.33-.23-.65-.46-.97-.72-.31-.26-.62-.53-.9-.81-.28-.28-.56-.59-.81-.9-.26-.3-.49-.63-.72-.97-.44-.67-.82-1.38-1.13-2.13-.31-.74-.55-1.52-.7-2.3-.09-.39-.14-.8-.18-1.19-.05-.4-.07-.8-.07-1.21s.02-.81.07-1.21c.04-.4.09-.8.18-1.19.15-.79.39-1.56.7-2.3.3-.75.68-1.46,1.13-2.13.23-.33.46-.65.72-.97s.53-.62.81-.9c.28-.28.59-.56.9-.81.31-.26.63-.49.97-.72.67-.44,1.38-.82,2.13-1.13.74-.31,1.51-.55,2.3-.7.4-.09.8-.14,1.19-.18.8-.09,1.62-.09,2.42,0,.4.04.8.1,1.19.18.79.15,1.56.39,2.3.7.75.3,1.46.68,2.13,1.13.33.23.66.46.97.72.31.26.62.53.9.81.28.28.56.59.81.9.26.31.49.63.72.97.45.67.82,1.38,1.13,2.13.31.74.55,1.52.71,2.3.08.4.13.8.18,1.19.04.41.06.81.06,1.21s-.02.81-.06,1.21c-.05.4-.1.81-.18,1.19-.16.79-.4,1.56-.71,2.3-.3.75-.68,1.46-1.13,2.13-.23.33-.46.66-.72.97-.26.31-.53.62-.81.9-.28.28-.59.56-.9.81-.3.26-.63.49-.97.72-.67.44-1.38.82-2.13,1.14-.74.3-1.51.54-2.3.7-.4.07-.8.14-1.19.18-.41.04-.81.06-1.21.06Z"/><path class="cls-1" d="M317.87,633.81c-.41,0-.81-.02-1.21-.06s-.8-.1-1.19-.18c-.79-.16-1.56-.4-2.31-.7-.74-.31-1.45-.69-2.12-1.14-.33-.22-.66-.46-.97-.72-.31-.26-.62-.53-.9-.81-.28-.28-.55-.59-.8-.9-.26-.3-.5-.64-.72-.97-.45-.67-.82-1.38-1.14-2.13-.3-.74-.54-1.51-.7-2.3-.08-.39-.14-.8-.18-1.19-.04-.4-.06-.8-.06-1.21,0-3.24,1.31-6.41,3.6-8.7.28-.28.59-.56.9-.81.31-.26.64-.49.97-.72.67-.44,1.38-.82,2.12-1.13.75-.31,1.52-.55,2.31-.7.39-.09.8-.14,1.19-.18.8-.09,1.62-.09,2.42,0,.4.04.8.1,1.19.18.79.15,1.56.39,2.3.7.74.3,1.46.69,2.12,1.13.34.23.66.46.97.72.31.26.62.53.9.81,2.29,2.29,3.61,5.46,3.61,8.7,0,.41-.02.81-.07,1.21-.04.4-.09.81-.18,1.19-.15.79-.39,1.56-.7,2.3-.3.75-.69,1.46-1.13,2.13-.23.33-.46.66-.72.97-.26.31-.53.61-.81.9-.28.28-.59.56-.9.81-.31.26-.63.5-.97.72-.66.44-1.38.82-2.12,1.14-.74.3-1.51.54-2.3.7-.4.08-.8.14-1.19.18-.41.04-.81.06-1.21.06Z"/><path class="cls-1" d="M254.79,634.88c-3.17,0-6.33-1.22-8.74-3.64-4.78-4.83-4.75-12.62.08-17.4l61.98-61.43c4.83-4.78,12.62-4.75,17.4.08,4.78,4.83,4.75,12.62-.08,17.4l-61.98,61.43c-2.4,2.38-5.53,3.57-8.66,3.57Z"/><path class="cls-1" d="M542.89,573.45h-154.31c-6.8,0-12.31-5.51-12.31-12.31s5.51-12.31,12.31-12.31h154.31c6.8,0,12.31,5.51,12.31,12.31s-5.51,12.31-12.31,12.31Z"/><path class="cls-1" d="M482.99,623.3h-94.4c-6.8,0-12.31-5.51-12.31-12.31s5.51-12.31,12.31-12.31h94.4c6.8,0,12.31,5.51,12.31,12.31s-5.51,12.31-12.31,12.31Z"/></svg><!-- /wp:html -->
+<!-- wp:heading {"level":3,"textColor":"white","fontSize":"medium"} -->
+<h3 class="wp-block-heading has-white-color has-text-color has-medium-font-size">Revenue management</h3>
+<!-- /wp:heading -->
+</div>
+<!-- /wp:group -->
+<!-- wp:paragraph {"textColor":"white","fontSize":"small"} -->
+<p class="has-white-color has-text-color has-small-font-size">Optimización dinámica de tarifas basada en demanda, estacionalidad y análisis de mercado para maximizar ingresos.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
 
-		<!-- wp:group {"backgroundColor":"purple-dark","style":{"spacing":{"padding":{"top":"32px","bottom":"32px","left":"32px","right":"32px"},"blockGap":"16px"},"border":{"radius":"24px"}},"layout":{"type":"constrained"}} -->
-		<div class="wp-block-group has-purple-dark-background-color has-background" style="border-radius:24px;padding-top:32px;padding-right:32px;padding-bottom:32px;padding-left:32px">
-			<!-- wp:group {"style":{"spacing":{"blockGap":"14px"}},"layout":{"type":"flex","verticalAlignment":"center"}} -->
-			<div class="wp-block-group">
-				<!-- wp:html --><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z"/><polyline points="9 12 11 14 15 10"/></svg><!-- /wp:html -->
-				<!-- wp:heading {"level":3,"textColor":"white","fontSize":"medium"} -->
-				<h3 class="wp-block-heading has-white-color has-text-color has-medium-font-size">Seguridad y control avanzado</h3>
-				<!-- /wp:heading -->
-			</div>
-			<!-- /wp:group -->
-			<!-- wp:paragraph {"textColor":"white","fontSize":"small"} -->
-			<p class="has-white-color has-text-color has-small-font-size">Verificación de huéspedes y tecnología de monitorización para proteger tu propiedad.</p>
-			<!-- /wp:paragraph -->
-		</div>
-		<!-- /wp:group -->
+<!-- wp:group {"backgroundColor":"purple-dark","style":{"spacing":{"padding":{"top":"32px","bottom":"32px","left":"32px","right":"32px"},"blockGap":"16px"},"border":{"radius":"24px"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-purple-dark-background-color has-background" style="border-radius:24px;padding-top:32px;padding-right:32px;padding-bottom:32px;padding-left:32px">
+<!-- wp:group {"style":{"spacing":{"blockGap":"14px"}},"layout":{"type":"flex","verticalAlignment":"center"}} -->
+<div class="wp-block-group">
+<!-- wp:html --><svg width="60" height="60" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:#fff;}</style></defs><path class="cls-1" d="M230.75,332.03c-6.67,0-12.09,5.16-12.09,11.52s5.42,11.52,12.09,11.52,12.09-5.16,12.09-11.52-5.42-11.52-12.09-11.52"/><path class="cls-1" d="M400,694.65c-2.28,0-4.56-.63-6.54-1.89l-109.94-69.85c-70.71-44.92-112.92-120.08-112.92-201.07v-235.81c0-4.83,3.24-9.12,8.04-10.65l217.61-69.45c2.43-.78,5.06-.78,7.49,0l217.61,69.45c4.8,1.53,8.04,5.82,8.04,10.65v235.81c0,80.99-42.21,156.15-112.92,201.07l-109.94,69.85c-1.98,1.26-4.26,1.89-6.54,1.89ZM194.18,194.11v227.73c0,73.46,38.29,141.64,102.42,182.38l103.4,65.7,103.4-65.7c64.13-40.74,102.42-108.92,102.42-182.38v-227.73l-205.82-65.69-205.82,65.69Z"/><path class="cls-1" d="M400,639.27c-2.28,0-4.56-.63-6.54-1.89l-83.11-52.81c-57.22-36.35-91.39-97.18-91.39-162.72v-32.23c0-6.2,5.28-11.23,11.79-11.23s11.79,5.03,11.79,11.23v32.23c0,58.01,30.24,111.85,80.89,144.02l76.58,48.66,76.58-48.66c50.65-32.17,80.89-86.01,80.89-144.02v-194.53l-157.47-50.31-157.46,50.31v70.14c0,6.2-5.28,11.23-11.79,11.23s-11.79-5.03-11.79-11.23v-78.22c0-4.83,3.24-9.12,8.04-10.65l169.25-54.08c2.43-.78,5.06-.78,7.49,0l169.25,54.08c4.8,1.53,8.04,5.82,8.04,10.65v202.61c0,65.54-34.16,126.37-91.39,162.72l-83.11,52.81c-1.98,1.26-4.26,1.89-6.54,1.89Z"/><path class="cls-1" d="M375.82,493.03c-9.6,0-18.64-3.57-25.43-10.04l-48.36-46.08c-6.79-6.47-10.53-15.08-10.53-24.23s3.74-17.76,10.53-24.23c14.02-13.36,36.84-13.36,50.86,0l22.93,21.85,71.29-67.94c6.79-6.47,15.82-10.04,25.43-10.04s18.64,3.57,25.43,10.04c14.02,13.36,14.02,35.11,0,48.47l-96.72,92.17c-6.79,6.48-15.83,10.04-25.43,10.04ZM327.46,400.87c-3.31,0-6.42,1.23-8.76,3.46-2.34,2.23-3.63,5.19-3.63,8.35s1.29,6.12,3.63,8.35l48.36,46.08c2.34,2.23,5.45,3.46,8.76,3.46s6.42-1.23,8.76-3.46l96.72-92.17c2.34-2.23,3.63-5.19,3.63-8.35s-1.29-6.12-3.63-8.35c-2.34-2.23-5.45-3.46-8.76-3.46s-6.42,1.23-8.76,3.46l-79.62,75.88c-2.21,2.11-5.21,3.29-8.33,3.29s-6.12-1.18-8.33-3.29l-31.26-29.79c-2.34-2.23-5.45-3.46-8.76-3.46Z"/></svg><!-- /wp:html -->
+<!-- wp:heading {"level":3,"textColor":"white","fontSize":"medium"} -->
+<h3 class="wp-block-heading has-white-color has-text-color has-medium-font-size">Seguridad y control avanzado</h3>
+<!-- /wp:heading -->
+</div>
+<!-- /wp:group -->
+<!-- wp:paragraph {"textColor":"white","fontSize":"small"} -->
+<p class="has-white-color has-text-color has-small-font-size">Verificación de huéspedes y tecnología de monitorización para proteger tu propiedad.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
 
-	</div>
-	<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
 
 </div>
 <!-- /wp:group -->

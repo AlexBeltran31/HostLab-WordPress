@@ -15,14 +15,22 @@
 		<div class="wp-block-group has-white-background-color has-background" style="border-radius:28px;padding-top:48px;padding-right:48px;padding-bottom:48px;padding-left:48px;max-width:460px;margin-left:auto;margin-right:auto">
 
 			<!-- wp:heading {"textAlign":"center","level":2,"textColor":"ink","fontSize":"large"} -->
-            <h2 class="wp-block-heading has-text-align-center has-ink-color has-text-color has-large-font-size">Evalúa tu propiedad</h2>
-            <!-- /wp:heading -->
+			<h2 class="wp-block-heading has-text-align-center has-ink-color has-text-color has-large-font-size">Evalúa tu propiedad</h2>
+			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"align":"center","textColor":"gray"} -->
 			<p class="has-text-align-center has-gray-color has-text-color">Completa el formulario y te contactamos en breve.</p>
 			<!-- /wp:paragraph -->
 
 			<?php echo do_shortcode( '[contact-form-7 id="1b00cc9" title="Evalúa tu propiedad"]' ); ?>
+
+			<div id="hostlab-thank-you-modal" class="hostlab-modal">
+				<div class="hostlab-modal__box">
+					<p class="hostlab-modal__title">¡Gracias!</p>
+					<p>Te contactaremos pronto.</p>
+					<button id="hostlab-modal-close" class="hostlab-modal__close" type="button">Cerrar</button>
+				</div>
+			</div>
 
 		</div>
 		<!-- /wp:group -->

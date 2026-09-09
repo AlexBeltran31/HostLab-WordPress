@@ -149,3 +149,40 @@ header.wp-block-template-part {
 	top: 0;
 	z-index: 1000;
 }
+
+.hostlab-modal {
+	display: none;
+	position: fixed;
+	inset: 0;
+	background: rgba(15, 10, 92, 0.6);
+	align-items: center;
+	justify-content: center;
+	z-index: 2000;
+}
+.hostlab-modal.is-open {
+	display: flex;
+}
+.hostlab-modal__box {
+	background: #ffffff;
+	border-radius: 20px;
+	padding: 40px;
+	max-width: 360px;
+	width: 90%;
+	text-align: center;
+}
+.hostlab-modal__title {
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #14121F;
+	margin-bottom: 8px;
+}
+.hostlab-modal__close {
+	margin-top: 24px;
+	padding: 10px 28px;
+	background-color: #c7f36b;
+	color: #14121F;
+	border: none;
+	border-radius: 999px;
+	font-weight: 700;
+	cursor: pointer;
+}

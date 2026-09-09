@@ -45,6 +45,15 @@ add_action( 'wp_enqueue_scripts', function () {
 		true
 	);
 
+		$modal_path = get_theme_file_path( '/js/thank-you-modal.js' );
+	wp_enqueue_script(
+		'hostlab-thank-you-modal',
+		get_template_directory_uri() . '/js/thank-you-modal.js',
+		array(),
+		file_exists( $modal_path ) ? filemtime( $modal_path ) : '1.0',
+		true
+	);
+
 	add_action( 'wpcf7_mail_sent', function ( $contact_form ) {
 	if ( ! defined( 'HOSTLAB_CALLMEBOT_PHONE' ) || ! defined( 'HOSTLAB_CALLMEBOT_APIKEY' ) ) {
 		return;
