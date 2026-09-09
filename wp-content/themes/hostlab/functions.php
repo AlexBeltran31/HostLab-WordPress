@@ -36,7 +36,7 @@ add_action( 'wp_enqueue_scripts', function () {
 		true
 	);
 
-		$mobile_menu_path = get_theme_file_path( '/js/mobile-menu.js' );
+	$mobile_menu_path = get_theme_file_path( '/js/mobile-menu.js' );
 	wp_enqueue_script(
 		'hostlab-mobile-menu',
 		get_template_directory_uri() . '/js/mobile-menu.js',
@@ -45,7 +45,7 @@ add_action( 'wp_enqueue_scripts', function () {
 		true
 	);
 
-		$modal_path = get_theme_file_path( '/js/thank-you-modal.js' );
+	$modal_path = get_theme_file_path( '/js/thank-you-modal.js' );
 	wp_enqueue_script(
 		'hostlab-thank-you-modal',
 		get_template_directory_uri() . '/js/thank-you-modal.js',
@@ -53,18 +53,18 @@ add_action( 'wp_enqueue_scripts', function () {
 		file_exists( $modal_path ) ? filemtime( $modal_path ) : '1.0',
 		true
 	);
+} );
 
-	add_action( 'wpcf7_mail_sent', function ( $contact_form ) {
+/**
+ * Arma el mensaje del lead y lo envía por CallMeBot.
+ * Está separado en su propia función para poder probarlo directamente
+ * (ver bin/test-whatsapp-notification.php) sin depender de un envío
+ * real del formulario ni de que el correo local funcione.
+ */
+function hostlab_notify_whatsapp_lead( $data ) {
 	if ( ! defined( 'HOSTLAB_CALLMEBOT_PHONE' ) || ! defined( 'HOSTLAB_CALLMEBOT_APIKEY' ) ) {
-		return;
+		return null;
 	}
-
-	$submission = WPCF7_Submission::get_instance();
-	if ( ! $submission ) {
-		return;
-	}
-
-	$data = $submission->get_posted_data();
 
 	$message  = "Nuevo lead en hostlab.cl\n";
 	$message .= "Nombre: " . ( $data['your-name'] ?? '-' ) . "\n";
@@ -73,7 +73,7 @@ add_action( 'wp_enqueue_scripts', function () {
 	$message .= "Región: " . ( $data['region'] ?? '-' ) . "\n";
 	$message .= "Comuna: " . ( $data['comuna'] ?? '-' );
 
-	wp_remote_get( add_query_arg(
+	return wp_remote_get( add_query_arg(
 		array(
 			'source' => 'php',
 			'phone'  => HOSTLAB_CALLMEBOT_PHONE,
@@ -82,5 +82,13 @@ add_action( 'wp_enqueue_scripts', function () {
 		),
 		'https://api.callmebot.com/whatsapp.php'
 	) );
-} );
+}
+
+add_action( 'wpcf7_mail_sent', function ( $contact_form ) {
+	$submission = WPCF7_Submission::get_instance();
+	if ( ! $submission ) {
+		return;
+	}
+
+	hostlab_notify_whatsapp_lead( $submission->get_posted_data() );
 } );
